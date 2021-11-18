@@ -1,0 +1,5 @@
+sir1=set(str(input("Dati un sir de caractere:")))
+sir2=set(str(input("Dati un sir de caractere:")))
+print("a)Caracterele care se intalnesc cel putin in unul dintre siruri :",sir1.union(sir2))
+print("b)Caracterele care apar in ambele siruri",sir1.intersection(sir2))
+print("c)Caracterele care apar in primul sir si nu apar in sirul al doilea",sir1.difference(sir2))
